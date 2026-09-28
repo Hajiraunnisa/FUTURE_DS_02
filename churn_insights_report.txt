@@ -1,0 +1,96 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║       TELCO CUSTOMER CHURN — RETENTION INSIGHTS & RECOMMENDATIONS          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+PREPARED BY  : Customer Analytics Team
+DATASET      : Telco Customer Churn (Kaggle — blastchar)
+RECORDS      : 7,043 customers  |  21 features
+
+─────────────────────────────────────────────────────────────────────────────
+ KPI SUMMARY
+─────────────────────────────────────────────────────────────────────────────
+  ▸ Total Customers    : 7,043
+  ▸ Churned Customers  : 1,869  (26.5%)
+  ▸ Retained Customers : 5,174  (73.5%)
+  ▸ Avg Customer Tenure: 32.4 months
+  ▸ Avg Monthly Charge : $64.76
+  ▸ Total Revenue      : $16,056,168.70
+  ▸ Revenue at Risk    : $139,130.85/month from churned customers
+
+─────────────────────────────────────────────────────────────────────────────
+ KEY INSIGHTS
+─────────────────────────────────────────────────────────────────────────────
+
+1. OVERALL CHURN RATE IS HIGH — 26.5%
+   Nearly 1 in 3 customers has left. This is significantly above the healthy
+   SaaS/telecom benchmark of 5–7% annually. Urgent retention action is needed.
+
+2. CONTRACT TYPE IS THE STRONGEST PREDICTOR
+   Month-to-month customers churn at ~42% vs only ~3% for two-year contracts.
+   Customers on long-term contracts are 14x more likely to stay.
+
+3. NEW CUSTOMERS ARE THE MOST VULNERABLE
+   Churn is highest in the first 6 months (~50%). Once a customer reaches
+   12+ months, churn drops dramatically. Early engagement is critical.
+
+4. FIBER OPTIC CUSTOMERS CHURN THE MOST (~42%)
+   Despite being a premium service, fiber customers churn more than DSL users.
+   This suggests pricing dissatisfaction or unmet service quality expectations.
+
+5. ELECTRONIC CHECK PAYMENT = HIGHEST CHURN RISK
+   Customers paying by electronic check churn at ~45%. Auto-pay customers
+   (credit card / bank transfer) churn at less than half that rate.
+
+6. SENIORS ARE A HIGH-RISK SEGMENT
+   Senior citizens churn at ~41% vs ~24% for non-seniors. They may need
+   simpler plans, dedicated support, or tailored communication.
+
+7. ADD-ON SERVICES DRAMATICALLY REDUCE CHURN
+   Customers with Tech Support and Online Security churn at ~15% vs ~40%
+   for those without. Each additional service a customer subscribes to
+   lowers their churn probability.
+
+8. CUSTOMERS WITHOUT PARTNERS/DEPENDENTS CHURN MORE
+   Solo customers are more likely to leave than those with family plans.
+   Family/bundled plans create stickiness and switching cost.
+
+─────────────────────────────────────────────────────────────────────────────
+ ACTIONABLE RECOMMENDATIONS
+─────────────────────────────────────────────────────────────────────────────
+
+  ✔ CONVERT MONTH-TO-MONTH CUSTOMERS
+    Offer discounted annual or two-year contracts with incentives (free month,
+    device upgrade). This single action could cut churn by up to 30%.
+
+  ✔ EARLY ONBOARDING PROGRAMME (0–6 months)
+    Assign dedicated support, trigger check-in emails at day 7, 30, 90.
+    First-month churn is ~50% — early engagement is the highest-ROI lever.
+
+  ✔ PUSH AUTO-PAY ADOPTION
+    Offer $5/month discount for switching from electronic check to auto-pay
+    (bank transfer / credit card). Reduces friction and churn risk.
+
+  ✔ BUNDLE ADD-ON SERVICES
+    Proactively offer Tech Support and Online Security bundles to new customers
+    at onboarding. Each service adds retention value and monthly revenue.
+
+  ✔ SENIOR CITIZEN RETENTION PROGRAMME
+    Create simplified plans, dedicated senior helpline, and proactive outreach.
+    41% churn in this segment represents significant preventable revenue loss.
+
+  ✔ FIBRE OPTIC QUALITY REVIEW
+    Investigate root cause of high fibre churn — survey churned fibre customers
+    for feedback. Consider a service guarantee or price-lock for loyal users.
+
+  ✔ FAMILY PLAN INCENTIVES
+    Promote multi-line / family bundles to solo customers. Customers with
+    dependents or partners churn significantly less.
+
+─────────────────────────────────────────────────────────────────────────────
+ DASHBOARD FILES
+─────────────────────────────────────────────────────────────────────────────
+  Page 1: churn_dashboard_page1.png  (KPIs, donut, contract, tenure, charges)
+  Page 2: churn_dashboard_page2.png  (Payment, seniors, services, risk)
+
+════════════════════════════════════════════════════════════════════════════════
